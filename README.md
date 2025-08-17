@@ -1,4 +1,4 @@
-# Profile
+# Frontend Mentor challenges
 
 [Recipe-page](https://yosef-ayman.github.io/frontend-mentor-challenges/recipe-page)  
 
