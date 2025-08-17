@@ -14,6 +14,6 @@
 
 [Stats-preview-card-component](https://yosef-ayman.github.io/frontend-mentor-challenges/stats-preview-card)  
 
-[3-Column-preview-card-component](https://yosef-ayman.github.io/)  
+[3-Column-preview-card-component](https://yosef-ayman.github.io/frontend-mentor-challenges)  Not Finished Yet.
 
 [Profile-card-component](https://yosef-ayman.github.io/frontend-mentor-challenges/profile-card)  
