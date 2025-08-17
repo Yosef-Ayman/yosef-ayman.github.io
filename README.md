@@ -1,19 +1,19 @@
 # Frontend Mentor challenges
 
- Recipe-page: 
+ Recipe-page: https://yosef-ayman.github.io/frontend-mentor-challenges/recipe-page
 
- Social-links-profile: 
+ Social-links-profile: https://yosef-ayman.github.io/frontend-mentor-challenges/social-links-profile
 
- Results-summary-component: 
+ Results-summary-component: https://yosef-ayman.github.io/frontend-mentor-challenges/results-summary
 
- Product-preview-card-component: 
+ Product-preview-card-component: https://yosef-ayman.github.io/frontend-mentor-challenges/product-preview-card
 
- NFT-preview-card-component: 
+ NFT-preview-card-component: https://yosef-ayman.github.io/frontend-mentor-challenges/nft-preview-card
 
- Order-summary-card: 
+ Order-summary-card: https://yosef-ayman.github.io/frontend-mentor-challenges/order-summary
 
- Stats-preview-card-component: 
+ Stats-preview-card-component: https://yosef-ayman.github.io/frontend-mentor-challenges/stats-preview-card
 
- 3-Column-preview-card-component: 
+ 3-Column-preview-card-component: https://yosef-ayman.github.io/
 
- Profile-card-component: 
+ Profile-card-component: https://yosef-ayman.github.io/frontend-mentor-challenges/profile-card
