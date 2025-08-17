@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+:root {
+    --clr-bg: hsl(30, 38%, 92%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-gray: #7B7C81;
+    --clr-dark-cyan: hsl(158, 36%, 37%);
+    --clr-dark-cyan-hover: hsl(158, 42%, 18%);
+
+
+    --ff-primary: 'Montserrat', sans-serif;
+    --ff-secondary: 'Fraunces', serif;
+
+    --fw-regular: 500;
+    --fw-bold: 700;
+
+    --fs-small: 0.8em;
+    --fs-base: 0.875em;
+    --fs-large: 2em;
+
+    --radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    background-color: var(--clr-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-bold);
+}
+
+main {
+    background-color: var(--clr-white);
+    width: 538px;
+    display: flex;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.one {
+    width: 50%;
+    overflow: hidden;
+}
+
+.desk, .mob {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.desk {
+    transform: scale(1.5);
+}
+
+.mob {
+    display: none;
+}
+
+.two {
+    width: 50%;
+    padding: 2rem;
+}
+
+.top {
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-size: var(--fs-small);
+    font-weight: var(--fw-bold);
+    color: var(--clr-gray);
+}
+
+h1 {
+    line-height: 0.9em;
+    margin: 1.5rem 0;
+}
+
+p {
+    font-size: var(--fs-base);
+    line-height: 1.5em;
+    color: var(--clr-gray);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.now {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-bold);
+    color: var(--clr-dark-cyan);
+}
+
+s {
+    color: var(--clr-gray);
+    font-size: var(--fs-small);
+    margin-left: 1rem;
+}
+
+button {
+    color: var(--clr-white);
+    background-color: var(--clr-dark-cyan);
+    padding: 1rem;
+    width: 100%;
+    border-radius: var(--radius);
+    border: none;
+    outline: none;
+}
+
+button::before {
+    content: url("images/icon-cart.svg");
+    position: relative;
+    left: -10px;
+    bottom: -2px;
+}
+
+button:hover {
+    background-color: var(--clr-dark-cyan-hover);
+    cursor: pointer;
+}
+
+.attribution {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: var(--fs-small);
+}
+
+@media screen and (min-width: 363px) and (max-width: 568px) {
+    main {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .one {
+        width: 100%;
+        height: 240px;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    main {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .one {
+        width: 100%;
+        height: 240px;
+    }
+
+    .two {
+        width: 100%;
+    }
+}

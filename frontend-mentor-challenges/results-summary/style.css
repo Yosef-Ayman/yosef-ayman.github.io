@@ -1,0 +1,172 @@
+:root {
+    --clr-bg: #ECF2FF;
+    --clr-white: #ffffff;
+
+    --clr-gradient1: hsl(252, 100%, 67%);
+    --clr-gradient2: hsl(241, 81%, 54%);
+    --clr-circle1: hsla(256, 72%, 46%, 1);
+    --clr-circle2: hsla(241, 72%, 46%, 0);
+
+    --clr-btn: hsl(224, 30%, 27%);
+
+    --clr-red: hsl(0, 100%, 67%);
+    --clr-yellow: hsl(39, 100%, 56%);
+    --clr-green: hsl(166, 100%, 37%);
+    --clr-blue: hsl(234, 85%, 45%);
+
+    --clr-light-red: #FFF6F7;
+    --clr-light-yellow: #FFFAF4;
+    --clr-light-green: #F2FDF9;
+    --clr-light-blue: #F4F4FE;
+
+    --clr-over: #9D989E;
+    --clr-p: #C0C0FF;
+    --clr-top: #CCBDFF;
+
+    --font-family: 'HankenGrotesk', sans-serif;
+
+    --font-size-top: 1.2em;
+    --font-size-great: 1.8rem;
+    --font-size-summary: 1.2em;
+    --font-size-user: 4.8rem;
+    --font-size-attr: 0.7rem;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/static/HankenGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('assets/fonts/static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--clr-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 630px;
+    background-color: var(--clr-white);
+    display: flex;
+    border-radius: 1em;
+}
+
+.one {
+    width: 50%;
+    border-radius: 1em;
+    background-image: linear-gradient(var(--clr-gradient1), var(--clr-gradient2));
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--clr-white);
+}
+
+.circle {
+    margin: 2em;
+    padding: 2em;
+    background-image: linear-gradient(var(--clr-circle1), var(--clr-circle2));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2em 2em 1em;
+    justify-content: space-between;
+}
+
+.box {
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+img { margin-right: 0.5rem; }
+.score { margin-left: auto; }
+
+.button {
+    width: 100%;
+    margin: 1rem 0 2rem;
+}
+
+button {
+    width: 100%;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: var(--clr-btn);
+    color: var(--clr-white);
+}
+
+button:hover {
+    background-image: linear-gradient(var(--clr-gradient1), var(--clr-gradient2));
+    cursor: pointer;
+}
+
+/* colors */
+.text1 { color: var(--clr-red) }
+#box1 { background-color: var(--clr-light-red) }
+
+.text2 { color: var(--clr-yellow) }
+#box2 { background-color: var(--clr-light-yellow) }
+
+.text3 { color: var(--clr-green) }
+#box3 { background-color: var(--clr-light-green) }
+
+.text4 { color: var(--clr-blue) }
+#box4 { background-color: var(--clr-light-blue) }
+
+.over100 { color: var(--clr-over) }
+p { color: var(--clr-p); margin: 1rem 0 }
+.top { color: var(--clr-top); font-size: var(--font-size-top); font-weight: 500 }
+.great { font-size: var(--font-size-great); font-weight: 500 }
+.summary { font-size: var(--font-size-summary); font-weight: 500 }
+.user-score { font-size: var(--font-size-user); font-weight: bold }
+.attribution { font-size: var(--font-size-attr); text-align: center }
+
+@media screen and (max-width: 568px) {
+    body {
+        background-color: transparent;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    main { flex-direction: column; }
+    .one { width: 100%; border-radius: 0 0 1em 1em; }
+    .two { width: 100%; }
+}

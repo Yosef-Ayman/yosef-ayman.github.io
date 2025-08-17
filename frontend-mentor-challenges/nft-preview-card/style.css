@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --font-primary: 'Outfit', sans-serif;
+    --font-secondary: 'Young Serif', serif;
+
+    --bg-main: hsl(216, 50%, 16%);
+    --bg-body: hsl(217, 54%, 11%);
+    --text-primary: hsl(215, 51%, 70%);
+    --text-white: hsl(0, 0%, 100%);
+    --cyan: hsl(178, 100%, 50%);
+    --border: hsl(215, 32%, 27%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-primary);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(var(--bg-body), var(--bg-main));
+    padding: 2rem;
+    color: var(--text-primary);
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-main);
+    box-shadow: 0 0 2px 16px var(--bg-body);
+    border-radius: 12px;
+    padding: 2rem;
+    width: 375px;
+}
+
+main .box-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.view {
+    position: absolute;
+    display: none;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: inherit;
+}
+
+.words h1,
+.words p {
+    margin: 1rem 0;
+}
+
+.data {
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.link {
+    color: var(--text-white);
+}
+
+.cyan {
+    color: var(--cyan);
+}
+
+.cyan::before {
+    content: url("images/icon-ethereum.svg");
+    position: relative;
+    left: -5px;
+    bottom: -2px;
+}
+
+.clock::before {
+    content: url("images/icon-clock.svg");
+    position: relative;
+    left: -5px;
+    bottom: -2px;
+}
+
+.last .image img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--text-white);
+    border-radius: 50%;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+}
+
+.creation {
+    margin-left: 0.7rem;
+}
+
+.link:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.attribution {
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.box-image:hover {
+    cursor: pointer;
+}
+
+.box-image:hover .main-image {
+    opacity: 0.5;
+}
+
+.box-image:hover .view {
+    display: block;
+    cursor: context-menu;
+}
+
+.box-image:hover .cly {
+    background-color: var(--cyan);
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 2rem;
+        background-image: none;
+        background-color: var(--bg-body);
+    }
+
+    main {
+        width: 100%;
+    }
+}
