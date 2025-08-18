@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --color-gold-500: hsl(31, 77%, 52%);
+    --color-cyan-800: hsl(184, 100%, 22%);
+    --color-green-950: hsl(179, 100%, 13%);
+    --color-white-transparent: hsla(0, 0%, 100%, 0.75);
+    --color-gray-100: hsl(0, 0%, 95%);
+    --font-body: 'Lexend Deca', sans-serif;
+    --font-heading: 'Big Shoulders Display', sans-serif;
+    --font-size-body: 15px;
+    --weight-regular: 400;
+    --weight-bold: 700;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+}
+
+body {
+    background-color: var(--color-gray-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 2em;
+}
+
+main {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 1em 0;
+}
+
+.card {
+    padding: 2em;
+}
+
+.card1 {
+    background-color: var(--color-gold-500);
+}
+
+.card2 {
+    background-color: var(--color-cyan-800);
+}
+
+.card3 {
+    background-color: var(--color-green-950);
+}
+
+.h {
+    font-family: var(--font-heading);
+    font-size: calc(1.8 * var(--font-size-body));
+    font-weight: 700;
+    color: var(--color-gray-100);
+    margin: 1em 0;
+    text-transform: uppercase;
+    transform: scaleY(1.2);
+    letter-spacing: -1px;
+}
+
+.p {
+    font-weight: 400;
+    color: var(--color-white-transparent);
+    margin: 2em 0;
+}
+
+button {
+    padding: 1em 2em;
+    background-color: var(--color-gray-100);
+    border-radius: 2em;
+    border: 0.125em solid var(--color-gray-100);
+}
+
+.btn1 {
+    color: var(--color-gold-500);
+}
+
+.btn2 {
+    color: var(--color-cyan-800);
+}
+
+.btn3 {
+    color: var(--color-green-950);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-gray-100);
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+        align-items: center;
+    }
+    main {
+        flex-direction: row;
+        width: 100%;
+        max-width: 980px;
+    }
+    .p {
+        margin-bottom: 4em;
+    }
+}
