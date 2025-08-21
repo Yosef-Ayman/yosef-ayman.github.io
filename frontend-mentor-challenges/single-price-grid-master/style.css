@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-teal-500: hsl(179, 62%, 43%);
+    --color-green-400: hsl(71, 73%, 54%);
+    --color-teal-100: hsl(204, 43%, 93%);
+    --color-gray-500: hsl(218, 22%, 67%);
+    --color-bg-body: #E6EFF6;
+    --color-white: #ffffff;
+    --color-card-two: #2BB3B1;
+    --color-card-three: #4ABEBD;
+    --color-price: #6DDDDE;
+    --color-list: #A9FFFF;
+    --font-family: 'Karla', sans-serif;
+    --font-size-body: 16px;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family), sans-serif;
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-regular);
+}
+
+body {
+    background-color: var(--color-bg-body);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: transparent;
+    color: var(--color-gray-500);
+}
+
+.h {font-size: calc(1.5 * var(--font-size-body));}
+.white {color: var(--color-teal-100);}
+
+.one {
+    background-color: var(--color-white);
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.two {background-color: var(--color-card-two);}
+.three {
+    background-color: var(--color-card-three);
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+.one .h {font-weight: var(--font-weight-bold);}
+
+.card {padding: 1em;}
+.card div {margin: 1em 0;}
+.card div:nth-child(1) {margin: 0 0 1em 0;}
+
+.price {
+    color: var(--color-price);
+    display: flex;
+    align-items: center;
+}
+.price span {
+    margin-right: 0.5em;
+    font-weight: var(--font-weight-bold);
+}
+
+.teal {color: var(--color-teal-500);}
+.green {color: var(--color-green-400);}
+
+button {
+    background-color: var(--color-green-400);
+    color: var(--color-white);
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0.5em;
+    outline: 0;
+    border: 0;
+    padding: 1em 2em;
+    box-shadow: 0 4px 16px #666;
+}
+
+ul {
+    list-style-type: none;
+    color: var(--color-list);
+}
+li {margin: 0.25em 0;}
+
+.footer {text-align: center;}
+
+@media screen and (min-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        max-width: 1055px;
+    }
+
+    .card {padding: 2em;}
+
+    .down {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .two, .three {flex-grow: 1;}
+    .two {border-bottom-left-radius: 0.5em;}
+    .three {border-bottom-left-radius: 0;}
+}
