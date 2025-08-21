@@ -23,3 +23,5 @@
 [Four-card-feature](https://yosef-ayman.github.io/frontend-mentor-challenges/four-card-feature)
 
 [Single-price-grid-master](https://yosef-ayman.github.io/frontend-mentor-challenges/single-price-grid-master)
+
+[Huddle-landing-page-with-single-introductory](https://yosef-ayman.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory)
