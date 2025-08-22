@@ -1,5 +1,7 @@
 # Frontend Mentor challenges
 
+[Qr-code-component-main](https://yosef-ayman.github.io/frontend-mentor-challenges/qr-code-component-main)
+
 [Blog-preview-card-main](https://yosef-ayman.github.io/frontend-mentor-challenges/blog-preview-card-main)
 
 [Huddle-landing-page-with-single-introductory](https://yosef-ayman.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory)
