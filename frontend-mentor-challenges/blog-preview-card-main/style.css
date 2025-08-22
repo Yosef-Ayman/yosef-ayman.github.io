@@ -59,7 +59,7 @@ main {
     gap: 1em;
     background-color: var(--clr-white);
     border-radius: 2em;
-    max-width: 38em;
+    max-width: 24em;
     border: 1px solid var(--clr-gray-950);
     box-shadow: 8px 8px 0 var(--clr-gray-950);
 }
@@ -109,4 +109,5 @@ main {
 
 .attribution {
     margin: 1em 0;
+
 }
