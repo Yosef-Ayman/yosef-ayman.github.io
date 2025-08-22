@@ -25,3 +25,5 @@
 [Single-price-grid-master](https://yosef-ayman.github.io/frontend-mentor-challenges/single-price-grid-master)
 
 [Huddle-landing-page-with-single-introductory](https://yosef-ayman.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory)
+
+[Blog-preview-card-main](https://yosef-ayman.github.io/frontend-mentor-challenges/blog-preview-card-main)
