@@ -66,6 +66,9 @@ img {
 
 .purple {
     color: var(--clr-Purple-500);
+}
+
+.italic {
     font-style: italic;
 }
 
