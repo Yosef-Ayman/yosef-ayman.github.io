@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --green-500: hsl(171, 66%, 44%);
+    --blue-100: hsl(233, 100%, 69%);
+    --gray-700: hsl(210, 10%, 33%);
+    --gray-500: hsl(201, 11%, 66%);
+    --font-family: 'Bai Jamjuree', sans-serif;
+    --font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family), sans-serif;
+}
+
+a { text-decoration: none; }
+ul { list-style: none; }
+b { font-weight: 600; }
+body {
+    background: #fff;
+    text-align: center;
+    font-size: var(--font-size);
+}
+
+.bg-banner {
+    width: 100%;
+    height: 363px;
+    background:
+            linear-gradient(to bottom, hsla(171, 66%, 44%,0.2), transparent),
+            url("./images/bg-header-mobile.png") no-repeat center center;
+    background-size: cover, cover;
+    position: absolute;
+}
+
+main, footer, .site-footer, .logos, .footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    min-height: 100vh;
+    padding: 2em;
+    line-height: 1.6;
+}
+main h1, main h2, main h3 {
+    color: var(--gray-700);
+    font-weight: 600;
+    margin: 1em 0;
+}
+main p { color: var(--gray-500); margin-bottom: 3em; }
+main a { display: block; }
+section { margin: 3em 0; }
+
+.download {
+    color: #fff;
+    padding: 0.8em;
+    border-radius: 2em;
+    margin: 1em 0;
+}
+.ios {
+    background: var(--green-500);
+    border-bottom: 4px solid #309583;
+    box-shadow: 0 8px 2em #CDF6E8;
+}
+.mac {
+    background: var(--blue-100);
+    border-bottom: 4px solid #5765BD;
+    box-shadow: 0 8px 2em #d1e8f6;
+}
+.ios:hover { background: hsla(171, 66%, 44%, .8); }
+.mac:hover { background: hsla(233, 100%, 69%, .8); }
+
+.down img, .clipboard img { width: 100%; }
+.supercharge img { width: 32px; }
+.logos { gap: 5em; width: 50%; justify-content: center; }
+.logos img { margin: 0; }
+
+footer {
+    padding: 1em 0;
+    background: #F5F6F8;
+}
+.footer-logo img { width: 40%; }
+.site-footer { padding: 2em; justify-content: space-around; }
+.footer-nav { margin: 3em 0; }
+.footer-nav ul { gap: 1em; flex-wrap: wrap; }
+.footer-nav a { color: var(--gray-700); }
+.footer-nav a:hover { color: var(--green-500); }
+.social-media ul li { display: inline; }
+.social-media ul li:nth-child(2) { margin: 0 1em; }
+.social-media a svg path:hover { fill: var(--green-500) !important; }
+.designer { font-family: monospace, serif; text-align: center; }
+
+@media (min-width: 852px) {
+    .bg-banner {
+        width: 100%;
+        height: 363px;
+        background:
+                linear-gradient(to bottom, hsla(171, 66%, 44%,0.2), transparent),
+                url("./images/bg-header-desktop.png") no-repeat center center;
+        background-size: cover, cover;
+        position: absolute;
+    }
+    .down { display: flex; }
+    .down img { translate: -5em 0; }
+    .down .description { text-align: start; display: flex; flex-direction: column; justify-content: center; }
+    .logos, .site-footer, .footer-nav ul { flex-direction: row; }
+    .download {width: 35%; display: inline-block; }
+    .site-footer {width: 100%; }
+}
