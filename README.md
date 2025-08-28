@@ -31,7 +31,7 @@
 ## 🌍 Connect with Me
 -  GitHub: [Yosef-Ayman](https://github.com/Yosef-Ayman)  
 -  Email: **yosefaymanahmedya@gmail.com**  
--  LinkedIn: [yosef-ayman]([https://linkedin.com](https://www.linkedin.com/in/yosef-ayman/))  
+-  LinkedIn: [yosef-ayman](https://www.linkedin.com/in/yosef-ayman/)  
 
 ---
 
