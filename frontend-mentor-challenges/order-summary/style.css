@@ -36,6 +36,7 @@ body {
     align-items: center;
     background-color: var(--clr-bg);
     padding: 1rem 0;
+    min-height: 100vh;
 }
 
 main {
@@ -187,3 +188,4 @@ button {
         }
     }
 }
+
