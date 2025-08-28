@@ -1,39 +1,38 @@
-# Frontend Mentor challenges
+# 👋 Hey, I'm Yosef Ayman  
 
-[Clipboard-landing-page-master](https://yosef-ayman.github.io/frontend-mentor-challenges/clipboard-landing-page-master)
+🎓 Sophomore at **Cairo University** | Faculty of **Computers & Artificial Intelligence**  
+💡 Passionate about **Competitive Programming, Web Development, Algorithms & Problem Solving**  
 
-[Testimonials-grid-section-main](https://yosef-ayman.github.io/frontend-mentor-challenges/testimonials-grid-section-main)
+---
 
-[Bento-grid-main](https://yosef-ayman.github.io/frontend-mentor-challenges/bento-grid-main)
+## 🚀 About Me
+- 🔹 Strong interest in **Data Structures & Algorithms**  
+- 🔹 Practicing **Competitive Programming** (solved 500+ problems on competitive programming sites 🚀)  
+- 🔹 Exploring **Web Development** (Frontend + Backend)  
+- 🔹 Love building **projects** and learning new tech  
 
-[Fylo-data-storage-component-master](https://yosef-ayman.github.io/frontend-mentor-challenges/fylo-data-storage-component-master)
+---
 
-[Qr-code-component-main](https://yosef-ayman.github.io/frontend-mentor-challenges/qr-code-component-main)
+## 🛠️ Tech Stack
+- **Languages:** C++, Python, JavaScript, HTML, CSS  
+- **Core:** Data Structures, Algorithms, Problem Solving  
+- **Web:** BootstrapCSS, TailwindCSS, Node.js (learning)  
+- **Other Interests:** APIs, Databases  
 
-[Blog-preview-card-main](https://yosef-ayman.github.io/frontend-mentor-challenges/blog-preview-card-main)
+---
 
-[Huddle-landing-page-with-single-introductory](https://yosef-ayman.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory)
+## 🏆 Achievements
+- 💻 Solved **500+ competitive programming problems** on [Codeforces](https://codeforces.com/profile/yosef_ayman), [VJudge](https://vjudge.net/user/Yosef_Ayman_0202), [Leetcode](https://leetcode.com/u/Yosef_Ayman/)   
+- 📈 Consistently improving logic & problem-solving speed  
+- 🏅 Developing strong teamwork & communication skills through projects + YouTube  
 
-[Single-price-grid-master](https://yosef-ayman.github.io/frontend-mentor-challenges/single-price-grid-master)
+---
 
-[Four-card-feature](https://yosef-ayman.github.io/frontend-mentor-challenges/four-card-feature)
+## 🌍 Connect with Me
+-  GitHub: [Yosef-Ayman](https://github.com/Yosef-Ayman)  
+-  Email: **yosefaymanahmedya@gmail.com**  
+-  LinkedIn: [yosef-ayman]([https://linkedin.com](https://www.linkedin.com/in/yosef-ayman/))  
 
-[Social-proof-section-master](https://yosef-ayman.github.io/frontend-mentor-challenges/social-proof-section-master)
+---
 
-[Profile-card-component](https://yosef-ayman.github.io/frontend-mentor-challenges/profile-card)
-
-[3-Column-preview-card-component](https://yosef-ayman.github.io/frontend-mentor-challenges/3-column-preview-card)
-
-[Stats-preview-card-component](https://yosef-ayman.github.io/frontend-mentor-challenges/stats-preview-card)
-
-[Order-summary-card](https://yosef-ayman.github.io/frontend-mentor-challenges/order-summary)
-
-[NFT-preview-card-component](https://yosef-ayman.github.io/frontend-mentor-challenges/nft-preview-card)
-
-[Product-preview-card-component](https://yosef-ayman.github.io/frontend-mentor-challenges/product-preview-card)
-
-[Results-summary-component](https://yosef-ayman.github.io/frontend-mentor-challenges/results-summary)
-
-[Social-links-profile](https://yosef-ayman.github.io/frontend-mentor-challenges/social-links-profile)
-
-[Recipe-page](https://yosef-ayman.github.io/frontend-mentor-challenges/recipe-page)
+⭐ Always learning, building, debugging.
