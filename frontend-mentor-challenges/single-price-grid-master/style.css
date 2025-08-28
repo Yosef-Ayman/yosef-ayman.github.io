@@ -33,6 +33,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    justify-content: center;
 }
 
 .main {
@@ -100,7 +102,7 @@ li {margin: 0.25em 0;}
     .main {
         display: flex;
         flex-direction: column;
-        max-width: 1055px;
+        max-width: 900px;
     }
 
     .card {padding: 2em;}
@@ -114,3 +116,4 @@ li {margin: 0.25em 0;}
     .two {border-bottom-left-radius: 0.5em;}
     .three {border-bottom-left-radius: 0;}
 }
+
