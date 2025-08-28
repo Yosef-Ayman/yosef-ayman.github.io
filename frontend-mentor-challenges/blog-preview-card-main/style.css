@@ -50,6 +50,8 @@ body {
     align-items: center;
     font-size: var(--font-size-body);
     color: var(--clr-gray-950);
+    min-height: 100vh;
+    justify-content: center;
 }
 
 main {
@@ -109,4 +111,5 @@ main {
 
 .attribution {
     margin: 1em 0;
+
 }
