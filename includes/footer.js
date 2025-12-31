@@ -1,7 +1,9 @@
-<footer class="site-footer">
+export function getFooter() {
+    const currentYear = new Date().getFullYear();
+    return `<footer class="site-footer">
     <div class="container footer-content">
 
-        <div class="logo"><a href="index.php">YA</a></div>
+        <div class="logo"><a href="index.html">YA</a></div>
 
         <nav class="footer-links">
             <a href="https://github.com/Yosef-Ayman" target="_blank" aria-label="GitHub">
@@ -29,9 +31,10 @@
     </div>
 
     <div class="footer-bottom">
-        © <?php echo date("Y"); ?> Yosef Ayman. All Rights Reserved.
+        © ${currentYear} Yosef Ayman. All Rights Reserved.
     </div>
 </footer>
 
 </body>
-</html>
+</html>`;
+}

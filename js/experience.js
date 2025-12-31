@@ -1,5 +1,10 @@
-<?php include 'includes/header.php'; ?>
-<?php include 'includes/navbar.php'; ?>
+import { getHeader } from '../includes/header.js';
+import { getNavbar } from '../includes/navbar.js';
+import { getFooter } from '../includes/footer.js';
+
+export function renderExperience() {
+    return `${getHeader()}
+${getNavbar()}
 
 <section class="experience-page">
     <div class="container">
@@ -72,4 +77,5 @@
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+${getFooter()}`;
+}

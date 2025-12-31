@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+export function getHeader() {
+    return `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,4 +28,5 @@
     <meta name="twitter:image" content="https://www.facebook.com/photo/?fbid=1036547234958689&amp;set=a.101628075117281">
     <link rel="canonical" href="https://yosef-ayman.github.io/">
 </head>
-<body>
+<body>`;
+}
