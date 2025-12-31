@@ -882,3 +882,14 @@ button:focus-visible {
         opacity: 1;
     }
 }
+
+.live-preview {
+    margin-left: 16px;
+}
+
+@media (max-width: 420px) {
+    .live-preview {
+        margin-left: 0;
+        margin-top: 16px !important;
+    }
+}

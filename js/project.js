@@ -81,7 +81,7 @@ export function renderProject() {
         
         let liveButtonHtml = '';
         if (project.live) {
-            liveButtonHtml = `<a href="${htmlspecialchars(project.live)}" target="_blank" rel="noopener noreferrer" class="btn outline" style="margin-left: 16px;">Live Preview</a>`;
+            liveButtonHtml = `<a href="${htmlspecialchars(project.live)}" target="_blank" rel="noopener noreferrer" class="btn outline live-preview">Live Preview</a>`;
         }
         
         let highlightsSectionHtml = '';
