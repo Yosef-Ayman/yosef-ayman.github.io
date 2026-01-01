@@ -18,6 +18,10 @@ export function getFooter() {
 <!--                <i class="fa-solid fa-envelope"></i>-->
 <!--            </a>-->
 
+            <a href="https://discord.com/users/1288465534945464424" target="_blank" aria-label="Discord">
+                <i class="fa-brands fa-discord"></i>
+            </a>
+
             <a href="https://facebook.com/Yosef.Ayman.0" target="_blank" aria-label="Facebook">
                 <i class="fa-brands fa-facebook"></i>
             </a>
