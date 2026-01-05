@@ -23,8 +23,8 @@ export function renderProjects() {
                         ${tags}
                     </div>
                     <div class="project-buttons">
-                        <a href="project.html?id=${encodeURIComponent(id)}" class="btn btn-outline">View Details</a>
-                        <a href="${htmlspecialchars(project.github)}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+                        <a href="project.html?id=${encodeURIComponent(id)}" class="btn outline">View Details</a>
+                        <a href="${htmlspecialchars(project.github)}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary"> <i class="fab fa-github"></i> GitHub </a>
                     </div>
                 </div>`;
     });

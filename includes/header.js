@@ -4,10 +4,12 @@ export function getHeader() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yosef Ayman | Portfolio</title>
+    <title>Yosef Ayman | يوسف ايمن</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/page-transition.js" defer></script>
+    <script type="module" src="js/page-title.js"></script>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 640 640&quot;&gt;&lt;path d=&quot;M64 160C64 124.7 92.7 96 128 96L512 96C547.3 96 576 124.7 576 160L576 400L512 400L512 160L128 160L128 400L64 400L64 160zM0 467.2C0 456.6 8.6 448 19.2 448L620.8 448C631.4 448 640 456.6 640 467.2C640 509.6 605.6 544 563.2 544L76.8 544C34.4 544 0 509.6 0 467.2zM281 273L250 304L281 335C290.4 344.4 290.4 359.6 281 368.9C271.6 378.2 256.4 378.3 247.1 368.9L199.1 320.9C189.7 311.5 189.7 296.3 199.1 287L247.1 239C256.5 229.6 271.7 229.6 281 239C290.3 248.4 290.4 263.6 281 272.9zM393 239L441 287C450.4 296.4 450.4 311.6 441 320.9L393 368.9C383.6 378.3 368.4 378.3 359.1 368.9C349.8 359.5 349.7 344.3 359.1 335L390.1 304L359.1 273C349.7 263.6 349.7 248.4 359.1 239.1C368.5 229.8 383.7 229.7 393 239.1z&quot;/&gt;&lt;/svg&gt;">
     <meta name="description" content="مطور الواجهات الأمامية يوسف أيمن - طالب بكلية الحاسبات والذكاء الاصطناعي جامعة القاهرة | Yosef Ayman Frontend Developer - Computers and Artificial Intelligence Student at Cairo University | Passionate about Web Development, Competitive Programming &amp; Problem Solving">
     <meta name="keywords" content="Yosef Ayman, يوسف أيمن, frontend developer, مطور واجهات أمامية, web development, تطوير المواقع, FCAI, كلية الحاسبات والذكاء الاصطناعية, Cairo University, جامعة القاهرة, HTML, CSS, JavaScript, competitive programming, البرمجة التنافسية, portfolio, معرض أعمال, Frontend Mentor challenges, React, responsive design">

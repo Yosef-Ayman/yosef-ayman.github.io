@@ -81,7 +81,7 @@ export function renderProject() {
         
         let liveButtonHtml = '';
         if (project.live) {
-            liveButtonHtml = `<a href="${htmlspecialchars(project.live)}" target="_blank" rel="noopener noreferrer" class="btn outline live-preview">Live Preview</a>`;
+            liveButtonHtml = `<a href="${htmlspecialchars(project.live)}" target="_blank" rel="noopener noreferrer" class="btn outline live-preview"> <i class="fas fa-external-link-alt"></i> Live Preview</a>`;
         }
         
         let highlightsSectionHtml = '';
@@ -137,7 +137,7 @@ ${getNavbar()}
         ${fmSectionHtml}
 
         <div class="center-btn">
-            <a href="${htmlspecialchars(project.github)}" target="_blank" rel="noopener noreferrer" class="btn primary">View on GitHub</a>
+            <a href="${htmlspecialchars(project.github)}" target="_blank" rel="noopener noreferrer" class="btn primary"> <i class="fa-brands fa-github"></i> View on GitHub </a>
             ${liveButtonHtml}
         </div>
     </div>
@@ -151,7 +151,7 @@ ${getNavbar()}
             <div class="error-message">
                 <h1 class="page-title">Project Not Found</h1>
                 <p>The project you're looking for doesn't exist or has been removed.</p>
-                <a href="projects.html" class="btn btn-primary">Back to Projects</a>
+                <a href="projects.html" class="btn primary">Back to Projects</a>
             </div>
         </div>
     </section>
