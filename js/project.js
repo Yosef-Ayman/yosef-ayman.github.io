@@ -57,7 +57,7 @@ export function renderProject() {
                 fmChallengesHtml += `
                     <article class="fm-card fm-card-visible" data-tech="${htmlspecialchars(p.fm_meta.join(','))}" style="animation-delay: ${i * 0.05}s">
                         <div class="fm-card-thumbnail">
-                            <img src="https://image.thum.io/get/${htmlspecialchars(p.live)}" alt="${htmlspecialchars(p.fm_title)}" loading="lazy">
+                            <img src="../data/screenshots/${htmlspecialchars(p.slug)}.png" alt="${htmlspecialchars(p.fm_title)}" loading="lazy">
                             <div class="fm-card-overlay">
                                 <a href="${htmlspecialchars(p.live)}" target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-live">
                                     <i class="fas fa-external-link-alt"></i> Live Preview
