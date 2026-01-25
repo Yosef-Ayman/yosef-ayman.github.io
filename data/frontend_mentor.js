@@ -1,5 +1,12 @@
 export const fmProjects = [
     {
+        'slug': 'faq-accordion-main',
+        'fm_title': 'FAQ Accordion',
+        'fm_meta': ['html','css','js'],
+        'github': 'https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/faq-accordion-main',
+        'live': 'https://yosef-ayman.github.io/frontend-mentor-challenges/faq-accordion-main'
+    },
+    {
         'slug': 'digitalbank-landing-page-master',
         'fm_title': 'Digital Bank Landing Page',
         'fm_meta': ['html','css'],
