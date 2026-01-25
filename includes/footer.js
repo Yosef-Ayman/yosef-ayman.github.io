@@ -22,7 +22,7 @@ export function getFooter() {
                 <i class="fa-brands fa-discord"></i>
             </a>
 
-            <a href="https://facebook.com/Yosef.Ayman.0" target="_blank" aria-label="Facebook">
+            <a href="https://facebook.com/profile.php?id=100058102656981" target="_blank" aria-label="Facebook">
                 <i class="fa-brands fa-facebook"></i>
             </a>
 

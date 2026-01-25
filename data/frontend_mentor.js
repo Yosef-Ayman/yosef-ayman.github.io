@@ -1,5 +1,12 @@
 export const fmProjects = [
     {
+        'slug': 'digitalbank-landing-page-master',
+        'fm_title': 'Digital Bank Landing Page',
+        'fm_meta': ['html','css'],
+        'github': 'https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/digitalbank-landing-page-master',
+        'live': 'https://yosef-ayman.github.io/frontend-mentor-challenges/digitalbank-landing-page-master'
+    },
+    {
         'slug': 'qr-code-component-main',
         'fm_title': 'QR Code Component',
         'fm_meta': ['html','css'],
