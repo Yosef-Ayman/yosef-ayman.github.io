@@ -1,5 +1,12 @@
 export const fmProjects = [
     {
+        'slug': 'pricing-component-with-toggle-master',
+        'fm_title': 'Pricing Component With Toggle',
+        'fm_meta': ['html', 'css', 'js'],
+        'github': 'https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/pricing-component-with-toggle-master',
+        'live': 'https://yosef-ayman.github.io/frontend-mentor-challenges/pricing-component-with-toggle-master'
+    },
+    {
         'slug': 'ping-coming-soon-page-master',
         'fm_title': 'Ping Coming Soon Page',
         'fm_meta': ['html', 'css', 'js'],
