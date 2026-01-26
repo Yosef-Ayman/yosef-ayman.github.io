@@ -68,7 +68,9 @@ export function renderProject() {
                             </div>
                         </div>
                         <div class="fm-card-content">
-                            <h3 class="fm-card-title">${htmlspecialchars(p.fm_title)}</h3>
+                            <a href="${htmlspecialchars(p.live)}" target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">${htmlspecialchars(p.fm_title)}</h3>
+                            </a>
                             <div class="fm-card-meta">
                                 <div class="fm-tech-icons">
                                     ${techIconsHtml}

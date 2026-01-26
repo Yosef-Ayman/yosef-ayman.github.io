@@ -1,5 +1,12 @@
 export const fmProjects = [
     {
+        'slug': 'ping-coming-soon-page-master',
+        'fm_title': 'Ping Coming Soon Page',
+        'fm_meta': ['html', 'css', 'js'],
+        'github': 'https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/ping-coming-soon-page-master',
+        'live': 'https://yosef-ayman.github.io/frontend-mentor-challenges/ping-coming-soon-page-master'
+    },
+    {
         'slug': 'faq-accordion-main',
         'fm_title': 'FAQ Accordion',
         'fm_meta': ['html','css','js'],
