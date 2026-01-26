@@ -1,5 +1,12 @@
 export const fmProjects = [
     {
+        'slug': 'calculator-app-main',
+        'fm_title': 'Calculator App',
+        'fm_meta': ['html', 'css', 'js'],
+        'github': 'https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/calculator-app-main',
+        'live': 'https://yosef-ayman.github.io/frontend-mentor-challenges/calculator-app-main'
+    },
+    {
         'slug': 'pricing-component-with-toggle-master',
         'fm_title': 'Pricing Component With Toggle',
         'fm_meta': ['html', 'css', 'js'],
