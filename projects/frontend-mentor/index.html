@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frontend Mentor Challenges | Yosef Ayman Portfolio</title>
+
+    <meta name="description"
+        content="A collection of responsive UI challenges built from Frontend Mentor to sharpen layout, CSS, and UI skills.">
+
+    <meta name="author" content="Yosef Ayman">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#8b5cf6">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://yosef-ayman.github.io/projects/frontend-mentor/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path d='M64 160C64 124.7 92.7 96 128 96L512 96C547.3 96 576 124.7 576 160L576 400L512 400L512 160L128 160L128 400L64 400L64 160zM0 467.2C0 456.6 8.6 448 19.2 448L620.8 448C631.4 448 640 456.6 640 467.2C640 509.6 605.6 544 563.2 544L76.8 544C34.4 544 0 509.6 0 467.2zM281 273L250 304L281 335C290.4 344.4 290.4 359.6 281 368.9C271.6 378.2 256.4 378.3 247.1 368.9L199.1 320.9C189.7 311.5 189.7 296.3 199.1 287L247.1 239C256.5 229.6 271.7 229.6 281 239C290.3 248.4 290.4 263.6 281 272.9zM393 239L441 287C450.4 296.4 450.4 311.6 441 320.9L393 368.9C383.6 378.3 368.4 378.3 359.1 368.9C349.8 359.5 349.7 344.3 359.1 335L390.1 304L359.1 273C349.7 263.6 349.7 248.4 359.1 239.1C368.5 229.8 383.7 229.7 393 239.1z'/></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Frontend Mentor Challenges | Yosef Ayman Portfolio">
+    <meta property="og:description"
+        content="A collection of responsive UI challenges built from Frontend Mentor to sharpen layout, CSS, and UI skills.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yosef-ayman.github.io/projects/frontend-mentor/">
+    <meta property="og:site_name" content="Yosef Ayman Portfolio">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Frontend Mentor Challenges | Yosef Ayman Portfolio">
+    <meta name="twitter:description"
+        content="A collection of responsive UI challenges built from Frontend Mentor to sharpen layout, CSS, and UI skills.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+
+<body>
+        <header class="navbar">
+            <div class="container nav-shell">
+                <div class="logo"><a aria-label="Yosef Ayman home" class="" href="/" data-discover="true">YA</a></div>
+                <nav id="primary-navigation" class="nav-links" aria-label="Primary navigation"><a class="" href="/"
+                        data-discover="true">Home</a><a class="active" href="/projects" data-discover="true"
+                        aria-current="page">Projects</a><a class="" href="/experience"
+                        data-discover="true">Experience</a></nav>
+            </div>
+        </header>
+        <main class="project-page" style="opacity: 1; transform: none;">
+            <div class="project-hero">
+                <h1>Frontend Mentor Challenges</h1>
+                <div class="project-meta">A collection of responsive UI challenges built from Frontend Mentor to sharpen
+                    layout, CSS, and UI skills.</div>
+                <p class="project-summary">Frontend Mentor Challenges is a collection of responsive UI projects
+                    completed from Frontend Mentor platform. These challenges focus on improving layout skills, CSS
+                    mastery, and UI/UX design implementation. Each challenge is built with semantic HTML, modern CSS
+                    techniques, and responsive design principles.</p>
+            </div>
+            <section class="card" aria-labelledby="about-project-heading">
+                <h2 id="about-project-heading">About the Project</h2>
+                <p>Frontend Mentor Challenges is a collection of responsive UI projects completed from Frontend Mentor
+                    platform. These challenges focus on improving layout skills, CSS mastery, and UI/UX design
+                    implementation. Each challenge is built with semantic HTML, modern CSS techniques, and responsive
+                    design principles.</p>
+            </section>
+            <section class="features" aria-labelledby="features-heading">
+                <h2 id="features-heading" class="section-title">Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">Multiple responsive UI challenges</div>
+                    <div class="feature-card">Modern CSS techniques</div>
+                    <div class="feature-card">Semantic HTML structure</div>
+                    <div class="feature-card">Mobile-first design approach</div>
+                    <div class="feature-card">Cross-browser compatibility</div>
+                    <div class="feature-card">Accessibility considerations</div>
+                    <div class="feature-card">Clean and maintainable code</div>
+                </div>
+            </section>
+            <section class="technologies" aria-labelledby="tech-heading">
+                <h2 id="tech-heading" class="section-title">Technologies</h2>
+                <div class="tech-list"><span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml"
+                            aria-hidden="true">
+                            <path d="m18 16 4-4-4-4"></path>
+                            <path d="m6 8-4 4 4 4"></path>
+                            <path d="m14.5 4-5 16"></path>
+                        </svg> HTML</span><span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml"
+                            aria-hidden="true">
+                            <path d="m18 16 4-4-4-4"></path>
+                            <path d="m6 8-4 4 4 4"></path>
+                            <path d="m14.5 4-5 16"></path>
+                        </svg> CSS</span><span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml"
+                            aria-hidden="true">
+                            <path d="m18 16 4-4-4-4"></path>
+                            <path d="m6 8-4 4 4 4"></path>
+                            <path d="m14.5 4-5 16"></path>
+                        </svg> Responsive Design</span><span><svg xmlns="http://www.w3.org/2000/svg" width="14"
+                            height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml"
+                            aria-hidden="true">
+                            <path d="m18 16 4-4-4-4"></path>
+                            <path d="m6 8-4 4 4 4"></path>
+                            <path d="m14.5 4-5 16"></path>
+                        </svg> JavaScript</span></div>
+            </section>
+            <section class="highlights" aria-labelledby="highlights-heading">
+                <h2 id="highlights-heading" class="section-title">Project Highlights</h2>
+                <ul>
+                    <li>Responsive design mastery</li>
+                    <li>Modern CSS layout techniques</li>
+                    <li>UI/UX best practices</li>
+                    <li>Clean and semantic markup</li>
+                </ul>
+            </section>
+            <section class="fm-challenges-section" aria-labelledby="frontend-mentor-heading">
+                <h2 id="frontend-mentor-heading" class="section-title">Frontend Mentor Challenges</h2>
+                <div class="fm-challenges-grid">
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Calculator App screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/calculator-app-main.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/calculator-app-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/calculator-app-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/calculator-app-main"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Calculator App</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Calculator App technologies">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Pricing Component With Toggle screenshot"
+                                loading="lazy" decoding="async"
+                                src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/pricing-component-with-toggle-master.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/pricing-component-with-toggle-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/pricing-component-with-toggle-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/pricing-component-with-toggle-master"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Pricing Component With Toggle</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Pricing Component With Toggle technologies">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Ping Coming Soon Page screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/ping-coming-soon-page-master.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/ping-coming-soon-page-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/ping-coming-soon-page-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/ping-coming-soon-page-master"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Ping Coming Soon Page</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Ping Coming Soon Page technologies">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="FAQ Accordion screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/faq-accordion-main.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/faq-accordion-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/faq-accordion-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/faq-accordion-main"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">FAQ Accordion</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="FAQ Accordion technologies">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Digital Bank Landing Page screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/digitalbank-landing-page-master.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/digitalbank-landing-page-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/digitalbank-landing-page-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/digitalbank-landing-page-master"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Digital Bank Landing Page</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Digital Bank Landing Page technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="QR Code Component screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/qr-code-component-main.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/qr-code-component-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/qr-code-component-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/qr-code-component-main"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">QR Code Component</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="QR Code Component technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Product Preview Card screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/product-preview-card.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/product-preview-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/product-preview-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/product-preview-card"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Product Preview Card</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Product Preview Card technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="NFT Preview Card screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/nft-preview-card.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/nft-preview-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/nft-preview-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/nft-preview-card"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">NFT Preview Card</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="NFT Preview Card technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Order Summary Card screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/order-summary.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/order-summary"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/order-summary"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/order-summary"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Order Summary Card</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Order Summary Card technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Stats Preview Card screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/stats-preview-card.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/stats-preview-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/stats-preview-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/stats-preview-card"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Stats Preview Card</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Stats Preview Card technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="3 Column Preview Card screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/3-column-preview-card.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/3-column-preview-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/3-column-preview-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/3-column-preview-card"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">3 Column Preview Card</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="3 Column Preview Card technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Social Proof Section screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/social-proof-section-master.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/social-proof-section-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/social-proof-section-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/social-proof-section-master"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Social Proof Section</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Social Proof Section technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Four Card Feature screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/four-card-feature.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/four-card-feature"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/four-card-feature"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/four-card-feature"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Four Card Feature</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Four Card Feature technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Single Price Grid screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/single-price-grid-master.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/single-price-grid-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/single-price-grid-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/single-price-grid-master"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Single Price Grid</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Single Price Grid technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Huddle Landing Page screenshot" loading="lazy"
+                                decoding="async"
+                                src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/huddle-landing-page-with-single-introductory.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/huddle-landing-page-with-single-introductory"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/huddle-landing-page-with-single-introductory"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Huddle Landing Page</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Huddle Landing Page technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Blog Preview Card screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/blog-preview-card-main.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/blog-preview-card-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/blog-preview-card-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/blog-preview-card-main"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Blog Preview Card</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Blog Preview Card technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Profile Card Component screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/profile-card.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/profile-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/profile-card"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/profile-card"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Profile Card Component</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Profile Card Component technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Results Summary Component screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/results-summary.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/results-summary"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/results-summary"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/results-summary"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Results Summary Component</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Results Summary Component technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Social Links Profile screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/social-links-profile.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/social-links-profile"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/social-links-profile"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/social-links-profile"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Social Links Profile</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Social Links Profile technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Recipe Page screenshot" loading="lazy" decoding="async"
+                                src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/recipe-page.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/recipe-page"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/recipe-page"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/recipe-page"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Recipe Page</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Recipe Page technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Chat App CSS Illustration screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/chat-app-css-illustration-master.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/chat-app-css-illustration-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/chat-app-css-illustration-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/chat-app-css-illustration-master"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Chat App CSS Illustration</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Chat App CSS Illustration technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Clipboard Landing Page screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/clipboard-landing-page-master.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/clipboard-landing-page-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/clipboard-landing-page-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/clipboard-landing-page-master"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Clipboard Landing Page</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Clipboard Landing Page technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Testimonials Grid Section screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/testimonials-grid-section-main.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/testimonials-grid-section-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/testimonials-grid-section-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/testimonials-grid-section-main"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Testimonials Grid Section</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Testimonials Grid Section technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Bento Grid screenshot" loading="lazy" decoding="async"
+                                src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/bento-grid-main.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/bento-grid-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/bento-grid-main"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/bento-grid-main"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Bento Grid</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Bento Grid technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                    <article class="fm-card" style="opacity: 1; transform: none;">
+                        <div class="fm-card-thumbnail"><img alt="Fylo Data Storage Component screenshot" loading="lazy"
+                                decoding="async" src="https://github.com/Yosef-Ayman/yosef-ayman.github.io/blob/main/assets/images/frontendmentor/fylo-data-storage-component-master.png?raw=true">
+                            <div class="fm-card-overlay"><a
+                                    href="https://yosef-ayman.github.io/frontend-mentor-challenges/fylo-data-storage-component-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-external-link" aria-hidden="true">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14 21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg> Live Preview</a><a
+                                    href="https://github.com/Yosef-Ayman/frontend-mentor-challenges/tree/main/fylo-data-storage-component-master"
+                                    target="_blank" rel="noopener noreferrer" class="fm-overlay-btn fm-btn-source"><i
+                                        class="fa-brands fa-github"></i> Source Code</a></div>
+                        </div>
+                        <div class="fm-card-content"><a
+                                href="https://yosef-ayman.github.io/frontend-mentor-challenges/fylo-data-storage-component-master"
+                                target="_blank" rel="noopener noreferrer">
+                                <h3 class="fm-card-title">Fylo Data Storage Component</h3>
+                            </a>
+                            <div class="fm-tech-icons" aria-label="Fylo Data Storage Component technologies">
+                                <span>HTML</span><span>CSS</span></div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <div class="center-btn project-links"><a href="https://github.com/Yosef-Ayman/frontend-mentor-challenges"
+                    target="_blank" rel="noopener noreferrer" class="btn primary"><i class="fa-brands fa-github"
+                        style="font-size: 18px;"></i> View on GitHub</a></div>
+        </main>
+        <footer class="site-footer">
+            <div class="container footer-content">
+                <div class="logo"><a aria-label="Yosef Ayman home" href="/" data-discover="true">YA</a></div>
+                <nav class="footer-links" aria-label="Social links"><a href="https://github.com/Yosef-Ayman"
+                        target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+                            class="fa-brands fa-github"></i></a><a href="https://linkedin.com/in/yosef-ayman"
+                        target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin"></i></a><a
+                        href="https://discord.com/users/1288465534945464424" target="_blank" rel="noopener noreferrer"
+                        aria-label="Discord"><i class="fa-brands fa-discord"></i></a><a
+                        href="https://facebook.com/profile.php?id=100058102656981" target="_blank"
+                        rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a><a
+                        href="https://instagram.com/yosef__ayman" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></nav>
+            </div>
+            <div class="footer-bottom">Copyright 2026 Yosef Ayman. All Rights Reserved.</div>
+        </footer>
+</body>
+
+</html>
