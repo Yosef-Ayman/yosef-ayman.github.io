@@ -1,0 +1,17 @@
+{
+  "name": "yosef-portofolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lenis": "^1.3.25",
+    "next": "15.5.20",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "swiper": "^14.0.1"
+  }
+}
