@@ -4,6 +4,116 @@ function screenshots(folder, count) {
 
 export const projects = [
   {
+    id: 'base-go-app',
+    title: 'Base Go App',
+    shortDesc:
+      'A reusable Go backend starter template inspired by Laravel, providing a structured foundation for building web applications.',
+    about:
+      'Base-Go-App is a reusable backend project template built with Go, inspired by Laravel’s developer experience and application structure. It provides a consistent foundation for building web applications through organized configuration, HTTP handling, controllers, middleware, routing, database integration, and HTML templating. The project emphasizes modular architecture, maintainability, and leveraging Go’s standard library wherever practical, allowing developers to start new backend projects without rebuilding common infrastructure from scratch.',
+    features: [
+      'Environment-based application configuration',
+      'MVC-inspired application architecture',
+      'HTTP request and response handling',
+      'Routing and middleware management',
+      'Database connection and query management',
+      'Database schema and migration support',
+      'HTML template rendering',
+      'Session-based authentication',
+      'Cookie and session management',
+      'Repository testing structure'
+    ],
+    technologies: [
+      'Go',
+      'MySQL',
+      'SQL',
+      'HTML',
+      'Go Standard Library'
+    ],
+    highlights: [
+      'Laravel-inspired development experience',
+      'Reusable backend project foundation',
+      'Standard-library-first approach',
+      'Separation of application responsibilities',
+      'Database integration and migration support',
+      'Designed for extensibility and maintainability'
+    ],
+    demo: [],
+    github: 'https://github.com/Yosef-Ayman/Base-Go-App',
+    live: null,
+    watch: null
+  },
+  {
+    id: 'teacher',
+    title: 'Teacher System',
+    shortDesc:
+      'An educational platform that helps teachers manage courses, students, enrollments, and digital learning content.',
+    about:
+      'Teacher System is a full-stack educational platform designed to help teachers manage their teaching business online. It provides course management, student enrollment, protected video content and wallet-based payments.',
+    features: [
+      'Teacher and student management',
+      'Course and lesson management',
+      'Student enrollment and access control',
+      'Protected educational video content',
+      'Wallet and payment management',
+      'Role-based access control',
+      'Administrative dashboards',
+    ],
+    technologies: [
+      'PHP',
+      'Laravel',
+      'FilamentPHP',
+      'PostgreSQL',
+      'MySQL',
+      'React',
+      'Inertia.js',
+      'Tailwind CSS'
+    ],
+    highlights: [
+      'Secure course enrollment and content access',
+      'Wallet-based transactions',
+      'Role-based authorization',
+      'Scalable educational platform design'
+    ],
+    demo: [],
+    github: 'https://github.com/Yosef-Ayman/teacher',
+    live: 'https://yosef-teacher.up.railway.app',
+    watch: null
+  },
+  {
+    id: 'icpc-fcai-cu-community',
+    title: 'ICPC FCAI CU Community',
+    shortDesc:
+      'A community platform for ICPC FCAI CU, supporting competitive programming education, learning levels, sessions, and student engagement.',
+    about:
+      'ICPC FCAI CU Community is a web platform built to support the competitive programming community at the Faculty of Computers and Artificial Intelligence, Cairo University. It organizes learning levels, educational sessions, community activities, and student progress, providing a central hub for students and organizers.',
+    features: [
+      'Competitive programming learning levels',
+      'Level-based learning roadmaps',
+      'Educational session management',
+      'Student profiles and progress tracking',
+      'Community announcements and updates',
+      'Leaderboard and student engagement',
+      'Role-based access for community teams',
+      'Centralized learning resources'
+    ],
+    technologies: [
+      'Python',
+      'Django',
+      'PostgreSQL',
+      'MySQL',
+    ],
+    highlights: [
+      'Built for a university competitive programming community',
+      'Structured learning paths across multiple levels',
+      'Centralized session and learning resource management',
+      'Designed to support community growth and engagement'
+    ],
+    demo: [],
+    github: 'https://github.com/Yosef-Ayman/ICPC_FCAI_CU',
+    live: 'https://icpc-fcai-cu.vercel.app',
+    watch: null
+  },
+  {
     id: 'jobify',
     title: 'Jobify',
     shortDesc:
@@ -28,7 +138,7 @@ export const projects = [
       'Responsive Bootstrap-based UI'
     ],
     demo: screenshots('jobify', 17),
-    github: 'https://github.com/Yosef-Ayman/Web-App',
+    github: 'https://github.com/Yosef-Ayman/Jobify',
     live: null,
     watch: 'https://www.linkedin.com/posts/yosef-ayman_django-python-webdevelopment-ugcPost-7462741992297484288-szE6'
   },
@@ -109,7 +219,7 @@ export const projects = [
     ],
     demo: [],
     github: 'https://github.com/Yosef-Ayman/Tic-Tac-Toe-Collection',
-    live: 'https://boardgamestictactoe.netlify.app',
+    live: 'https://boardgamestictactoe.vercel.app',
     watch: 'https://youtu.be/EzMj2KNCbI4'
   },
   {
