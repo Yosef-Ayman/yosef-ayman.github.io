@@ -11,6 +11,12 @@ export const metadata = {
     template: `%s | ${SITE.author}`
   },
   description: SITE.description,
+  icons: {
+    icon: '/favicon.svg',
+  },
+  verification: {
+    google: '3wvITE0pVr-ZN_4dGhijKs3VnYEl1mT1-6lgQKdEc30',
+  },
   openGraph: {
     title: SITE.defaultTitle,
     description: SITE.description,

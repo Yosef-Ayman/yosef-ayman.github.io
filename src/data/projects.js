@@ -109,7 +109,7 @@ export const projects = [
       'Designed to support community growth and engagement'
     ],
     demo: [],
-    github: 'https://github.com/Yosef-Ayman/ICPC_FCAI_CU',
+    github: 'https://github.com/Yosef-Ayman/icpcfcaicu',
     live: 'https://icpc-fcai-cu.vercel.app',
     watch: null
   },
