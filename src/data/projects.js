@@ -278,7 +278,7 @@ export const projects = [
   }
 ];
 
-export const featuredProjectIds = ['jobify', 'budgetary', 'simple-audio-player', 'tic-tac-toe', 'image-processing', 'frontend-mentor'];
+export const featuredProjectIds = ['teacher', 'icpc-fcai-cu-community', 'jobify', 'budgetary', 'tic-tac-toe', 'frontend-mentor'];
 
 export function getProjectById(projectId) {
   return projects.find((project) => project.id === projectId);
